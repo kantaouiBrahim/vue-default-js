@@ -1,8 +1,10 @@
 <template>
   <h1>My count {{ count }}</h1>
   <input type="text" v-model.number="incValue" />
-  <button @click="inc">inc</button>
-  <button @click="dec">dec</button>
+  <w-flex justify-space-between>
+    <w-button @click="inc">inc</w-button>
+    <w-button @click="dec">dec</w-button></w-flex
+  >
 </template>
 
 <script setup>

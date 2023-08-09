@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mdi/font": "^7.2.96",
     "vue": "^3.3.4",
     "wave-ui": "^3.4.2"
   },
